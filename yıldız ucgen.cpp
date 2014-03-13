@@ -14,10 +14,10 @@ int ucgen(int kenar){
     printf("*\n");
     for(i=1;i<=(kenar-2);i++){
                               printf("* ");
-                          for(j=1;j<=(i-1);j++){
-                          printf("  ");}
-                          printf("*");
-                         printf("\n"); }
+                              for(j=1;j<=(i-1);j++){
+                                                    printf("  ");}
+                              printf("*");
+                              printf("\n"); }
     for(i=1;i<=kenar;i++){
                           printf("* ");}                      
     return 0;
